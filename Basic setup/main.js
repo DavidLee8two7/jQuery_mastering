@@ -1,5 +1,4 @@
-$(document).ready(function() {
-  $('.fade').on('click', function() {
-    $(this).fadeOut(1000);
-  });
+$('.fade, .fades, #fade, #fades').on('click', function() {
+  $(this).toggleClass('red');
+  $(this).fadeOut(3000);
 });
