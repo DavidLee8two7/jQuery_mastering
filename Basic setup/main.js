@@ -1,5 +1,10 @@
-$(document).ready(function() {
-  $('.fade').on('click', function() {
-    $(this).fadeOut(1000);
-  });
+$('#btn_main').on('click', function() {
+  alert($('.dope').text());
+});
+
+$('h2').css('color', 'red');
+
+$('button').on('click', function() {
+  $('p').addClass('random');
+  $(this).addClass('random');
 });
